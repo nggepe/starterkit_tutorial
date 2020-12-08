@@ -1,7 +1,5 @@
 library reskara_skit;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'package:reskara_skit/theme/theme_controller.dart';
+export 'package:reskara_skit/theme/theme_configuration.dart';
+export 'package:shared_preferences/shared_preferences.dart';
